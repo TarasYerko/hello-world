@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+p {
+    text-align: center;
+}
+#header{
+    background-color: #fff;
+}
+h1 {	
+    margin-left: auto;
+    margin-right: auto;
+	border: none;
+    width: 400px;
+	height: 450px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
