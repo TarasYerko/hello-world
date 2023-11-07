@@ -6,4 +6,10 @@ function getArguments()
 }
 
 let numbers = getArguments()
-alert('Ваші числа ' + numbers.n1 + ' ' + numbers.n2)
+
+function calcSum(x = 0, y = 0)
+{
+	return x + y
+}
+
+alert('Сума введених чисел ' + calcSum(numbers.n1, numbers.n2))
