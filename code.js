@@ -1,1 +1,9 @@
-alert('Привіт, трохи про нашого героя')
+function getArguments()
+{     
+    var n1 = Number(prompt('Введіть перше число:','0'))
+	var n2 = Number(prompt('Введіть друге число:','0'))
+    return {n1: n1, n2: n2}
+}
+
+let numbers = getArguments()
+alert('Ваші числа ' + numbers.n1 + ' ' + numbers.n2)
