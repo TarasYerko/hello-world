@@ -16,16 +16,16 @@ h2{
     width: 400px;
     height: 450px;
 }
-h3{	
-    text-align: center;
-    border: none;
-    background-color: gray;
-    font-weight: normal;
+h3 {	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 footer{
     border: none;
     background-color: gray;
 }
 p{
-    font-weight: normal;	
+    font-weight: bold;	
 }
